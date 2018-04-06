@@ -1,6 +1,6 @@
 {
     "name": "mongoose-migrate-2"
-  , "version": "0.2.2"
+  , "version": "0.2.3"
   , "description": "Migration framework for MongoDB"
   , "keywords": ["migrate", "migrations", "mongoose", "mongodb"]
   , "author": "Buu Nguyen <buunguyen@gmail.com>"
