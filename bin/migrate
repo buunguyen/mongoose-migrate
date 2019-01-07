@@ -185,7 +185,8 @@ var commands = {
  */
 
 function pad(n) {
-  return Array(4 - n.toString().length).join('0') + n;
+  let numberLength = n.toString().length;
+  return numberLength >= 4 ? n : Array(4 - numberLength).join('0') + n;
 }
 
 /**
